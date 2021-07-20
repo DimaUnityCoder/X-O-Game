@@ -1,0 +1,28 @@
+body {
+    font-family: "Arial", sans-serif;
+    color: white;
+    background-image: url(https://images.wallpapersden.com/image/download/cool-4k-pattern_bGduZWyUmZqaraWkpJRobWllrWdma2U.jpg);
+}
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 616px;
+    margin: 100px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+
+    line-height: 200px;
+    font-size: 120px;
+}
