@@ -1,7 +1,7 @@
 body {
     font-family: "Arial", sans-serif;
     color: white;
-    background-image: url(https://wallpapercave.com/wp/wp2533041.jpg);
+    background: image assets/bg 1jpg;
 }
 
 section {
