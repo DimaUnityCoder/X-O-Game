@@ -1,7 +1,7 @@
 const statusDisplay = document.querySelector('.game--status');
 
 let gameActive = true;
-let currentPlayer = "🍵";
+let currentPlayer = "X";
 let gameState = ["", "", "", "", "", "", "", "", ""];
 
 const winningMessage = () => `Player ${currentPlayer} has won!`;
@@ -27,7 +27,7 @@ function handleCellPlayed(clickedCell, clickedCellIndex) {
 }
 
 function handlePlayerChange() {
-    currentPlayer = currentPlayer === "🍵" ? "🍷" : "🍵";
+    currentPlayer = currentPlayer === "X" ? "0" : "X";
     statusDisplay.innerHTML = currentPlayerTurn();
 }
 
