@@ -1,6 +1,9 @@
 body {
     font-family: "Arial", sans-serif;
-    background-image: url(./assets/bg1.jpg);
+    background-image: url(/assets/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 section {
